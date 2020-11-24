@@ -13,3 +13,4 @@ The [GitLab pipeline](.gitlab-ci.yml) relies on a few environment variables:
 | Variable name  | Description                                                            |
 | -------------- | ---------------------------------------------------------------------- |
 | `GITLAB_TOKEN` | The token used by Semantic Release to interact with the GitLab project |
+| `NPM_TOKEN`    | The token used by Semantic Release to publish the package to NPM       |
