@@ -192,7 +192,7 @@
 
 "@semantic-release/gitlab@https://github.com/nfriend/gitlab.git#nfriend-testing-400-error":
   version "0.0.0-development"
-  resolved "https://github.com/nfriend/gitlab.git#1d793146d370acb5cee4919cf9e09d1fa5b70b26"
+  resolved "https://github.com/nfriend/gitlab.git#40e99b294a680c6e9b066448abefe7c5850ff770"
   dependencies:
     "@semantic-release/error" "^2.2.0"
     aggregate-error "^3.0.0"
