@@ -1,0 +1,32 @@
+default:
+  image: node:latest
+  before_script:
+    - yarn install --frozen-lockfile --cache-folder .yarn
+  cache:
+    paths:
+      - node_modules/
+      - .yarn
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH
+
+stages:
+  - build
+  - release
+
+build:
+  stage: build
+  needs: []
+  script:
+    - yarn build
+  artifacts:
+    paths:
+      - build/
+
+publish:
+  stage: release
+  script:
+    - yarn semantic-release --debug
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
