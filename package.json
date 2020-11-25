@@ -1,10 +1,10 @@
 {
-  "name": "@nfriend/semantic-release-test-project",
-  "version": "1.0.0",
+  "name": "@nathanfriend/semantic-release-test-project",
+  "version": "0.1.0",
   "description": "A project for testing semantic-release",
   "main": "index.js",
   "repository": "https://gitlab.com/nfriend/semantic-release-test-project.git",
-  "author": "Nathan Friend <hello@nathanfriend.io>",
+  "author": "Nathan Friend <nathan@gitlab.com>",
   "license": "MIT",
   "private": false,
   "files": [
