@@ -10,7 +10,7 @@
       }
     ],
     [
-      "@semantic-release/npm",
+      "@amanda-mitchell/semantic-release-npm-multiple",
       {
         "registries": {
           "gitlab": {},
