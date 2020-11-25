@@ -14,7 +14,7 @@
       {
         "registries": {
           "gitlab": {},
-          "public": {}
+          "github": {}
         }
       }
     ],
