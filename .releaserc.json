@@ -13,8 +13,7 @@
       "@amanda-mitchell/semantic-release-npm-multiple",
       {
         "registries": {
-          "gitlab": {},
-          "github": {}
+          "gitlab": {}
         }
       }
     ],
