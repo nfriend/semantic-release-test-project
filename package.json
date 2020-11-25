@@ -1,6 +1,6 @@
 {
   "name": "@nathanfriend/semantic-release-test-project",
-  "version": "0.1.0",
+  "version": "1.4.0",
   "description": "A project for testing semantic-release",
   "main": "index.js",
   "repository": "https://gitlab.com/nfriend/semantic-release-test-project.git",
