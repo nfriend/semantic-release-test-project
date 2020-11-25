@@ -9,6 +9,13 @@
         "assets": [{ "path": "src/**/*" }, { "path": "build/**/*" }]
       }
     ],
-    "@semantic-release/npm"
+    "@semantic-release/npm",
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["package.json"],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ]
   ]
 }
