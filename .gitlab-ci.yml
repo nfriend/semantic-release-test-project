@@ -9,6 +9,7 @@ default:
 
 variables:
   NPM_TOKEN: $CI_JOB_TOKEN
+  NPM_CONFIG_REGISTRY: https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/
 
 workflow:
   rules:
