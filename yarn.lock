@@ -190,9 +190,10 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/gitlab@https://github.com/nfriend/gitlab.git#nfriend-testing-400-error":
-  version "0.0.0-development"
-  resolved "https://github.com/nfriend/gitlab.git#0200b756f9e46d7a183cb98017d0f636a6de966b"
+"@semantic-release/gitlab@^6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-6.0.5.tgz#1e3b29da9a97cc45d17c81f3dfccdf7eae993e8c"
+  integrity sha512-fPOldehLPolClGrE1am0PMa1gqOPe+wVeTwCvbr4z27fZkDLhRTbKYfEyhqzGL4cm+fVhqI5dyvzHpqBXTAZUw==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     aggregate-error "^3.0.0"

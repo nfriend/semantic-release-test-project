@@ -4,7 +4,7 @@
   "description": "A project for testing semantic-release",
   "main": "index.js",
   "repository": "https://gitlab.com/nfriend/semantic-release-test-project.git",
-  "author": "Nathan Friend <nathan@gitlab.com>",
+  "author": "Nathan Friend <contact@nathanfriend.com>",
   "license": "MIT",
   "private": false,
   "files": [
@@ -15,7 +15,7 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@semantic-release/gitlab": "https://github.com/nfriend/gitlab.git#nfriend-testing-400-error",
+    "@semantic-release/gitlab": "^6.0.5",
     "@semantic-release/npm": "^7.0.8",
     "@tsconfig/node12": "^1.0.7",
     "semantic-release": "^17.3.0",
