@@ -2,6 +2,7 @@ default:
   image: node:latest
   before_script:
     - yarn install --frozen-lockfile --cache-folder .yarn
+    - echo '//gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}' | tee .npmrc
   cache:
     paths:
       - node_modules/
