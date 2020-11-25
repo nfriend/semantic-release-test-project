@@ -7,6 +7,9 @@ default:
       - node_modules/
       - .yarn
 
+variables:
+  NPM_TOKEN: $CI_JOB_TOKEN
+
 workflow:
   rules:
     - if: $CI_COMMIT_BRANCH
