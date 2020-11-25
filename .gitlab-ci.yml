@@ -9,8 +9,10 @@ default:
       - .yarn
 
 variables:
-  NPM_TOKEN: $CI_JOB_TOKEN
-  NPM_CONFIG_REGISTRY: https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/
+  GITLAB_NPM_TOKEN: $CI_JOB_TOKEN
+  GITLAB_NPM_CONFIG_REGISTRY: https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/
+  PUBLIC_NPM_TOKEN: $NPM_TOKEN
+  PUBLIC_NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
 
 workflow:
   rules:

@@ -9,7 +9,15 @@
         "assets": [{ "path": "src/**/*" }, { "path": "build/**/*" }]
       }
     ],
-    "@semantic-release/npm",
+    [
+      "@semantic-release/npm",
+      {
+        "registries": {
+          "gitlab": {},
+          "public": {}
+        }
+      }
+    ],
     [
       "@semantic-release/git",
       {
