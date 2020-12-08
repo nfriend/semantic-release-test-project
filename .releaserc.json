@@ -3,12 +3,7 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    [
-      "@semantic-release/gitlab",
-      {
-        "assets": [{ "path": "src/**/*" }, { "path": "build/**/*" }]
-      }
-    ],
+    "@semantic-release/gitlab",
     [
       "@amanda-mitchell/semantic-release-npm-multiple",
       {
