@@ -7,7 +7,7 @@
       "@semantic-release/gitlab",
       {
         "assets": [{ "path": "src/**/*" }, { "path": "build/**/*" }],
-        "milestones": "1.2.0"
+        "milestones": "${nextRelease.version}"
       }
     ],
     [
