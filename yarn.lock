@@ -218,9 +218,9 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/gitlab@rjferguson21/gitlab#add-milestones":
+"@semantic-release/gitlab@ldc2726/gitlab#master":
   version "0.0.0-development"
-  resolved "https://codeload.github.com/rjferguson21/gitlab/tar.gz/f0b91e237d74f7340e4e9e89e928857c563cac1c"
+  resolved "https://codeload.github.com/ldc2726/gitlab/tar.gz/a69b248047c905be93cfb9dd5db1eaadc47ad4cb"
   dependencies:
     "@semantic-release/error" "^2.2.0"
     aggregate-error "^3.0.0"
