@@ -16,7 +16,9 @@ variables:
 
 workflow:
   rules:
-    - if: $CI_COMMIT_BRANCH && $CI_COMMIT_TITLE !~ /^chore\(release\):/
+    - if: $CI_COMMIT_TITLE =~ /^chore\(release\):.*/
+      when: never
+    - if: $CI_COMMIT_BRANCH
 
 stages:
   - build
