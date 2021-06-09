@@ -7,8 +7,16 @@
       "@semantic-release/gitlab",
       {
         "assets": [
-          { "path": "src/**/*", "type": "image" },
-          { "path": "build/**/*", "type": "package" }
+          {
+            "path": "src/**/*",
+            "type": "image",
+            "filepath": "/path/to/thing/1"
+          },
+          {
+            "path": "build/**/*",
+            "type": "package",
+            "filepath": "/path/to/thing/2"
+          }
         ]
       }
     ],
