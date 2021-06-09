@@ -6,7 +6,10 @@
     [
       "@semantic-release/gitlab",
       {
-        "assets": [{ "path": "src/**/*" }, { "path": "build/**/*" }]
+        "assets": [
+          { "path": "src/**/*", "type": "image" },
+          { "path": "build/**/*", "type": "package" }
+        ]
       }
     ],
     [
