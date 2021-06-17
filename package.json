@@ -17,7 +17,7 @@
   "devDependencies": {
     "@amanda-mitchell/semantic-release-npm-multiple": "^2.2.0",
     "@semantic-release/git": "^9.0.0",
-    "@semantic-release/gitlab": "nfriend/gitlab#91a15c892e61b90779f43abce44bd7e4a89fd1ae",
+    "@semantic-release/gitlab": "nfriend/gitlab#6a4a1f32e549c59cd10515138c2ddc6ae2084c32",
     "@semantic-release/npm": "^7.0.8",
     "@tsconfig/node12": "^1.0.7",
     "semantic-release": "^17.3.0",
