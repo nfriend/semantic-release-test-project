@@ -218,9 +218,9 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/gitlab@nfriend/gitlab#61fe63eb193954d36a74c5bf9f1b22699b93571c":
+"@semantic-release/gitlab@nfriend/gitlab#a228ae1fe230f93c5b459b46a454637daca809ec":
   version "0.0.0-development"
-  resolved "https://codeload.github.com/nfriend/gitlab/tar.gz/61fe63eb193954d36a74c5bf9f1b22699b93571c"
+  resolved "https://codeload.github.com/nfriend/gitlab/tar.gz/a228ae1fe230f93c5b459b46a454637daca809ec"
   dependencies:
     "@semantic-release/error" "^2.2.0"
     aggregate-error "^3.0.0"
