@@ -3,10 +3,14 @@ default:
   before_script:
     - yarn install --frozen-lockfile --cache-folder .yarn
     - echo '//gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}' | tee --append .npmrc
-  cache:
-    paths:
-      - node_modules/
-      - .yarn
+
+  # Disabling CI caching in this project since it sometimes causes issues
+  # when swapping out different versions of the semantic-release/gitlab package.
+  #
+  # cache:
+  #   paths:
+  #     - node_modules/
+  #     - .yarn
 
 variables:
   GITLAB_NPM_TOKEN: $CI_JOB_TOKEN
